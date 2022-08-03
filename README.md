@@ -1,7 +1,7 @@
 # Mahir101-DSnAlgo-Java-GoogleDoc
 
 
-# Love IDE because IDE will assist you but Google doc won't. hahaha  Apart from Joke practice on texteditor and compiler your code using javac 
+# Love IDE because IDE will assist you but Google doc won't. hahaha  Apart from Joke practice on text editor and compile your code using javac 
 
 # use ubuntu and see the annotations and internal class files of your language to learn in depth
 
