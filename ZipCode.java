@@ -24,6 +24,35 @@ if(zipCode.contains('-')) {
       else return false;
 }
 }
+             
+// more cleaner             
+public Boolean isZipCode(String zipCode) {
+   boolean isZipCode = true;
+   int lenZipCode = zipCode.length();
+
+   if(lenZipCode == 9) [
+      return checkIfNum(zipCode) && !zipCode.contains('-');  
+    } else if(lenZipCode == 10) {
+       if(zipCode.chartAt(i)=='-' && i==5) {
+          return checkIfNum(zipCode.substring(0,5)) && checkIfNum(zipCode.substring(6,10));
+       } else {
+          return false;
+       }
+    } else {
+         return false;
+    }
+}
+boolean checkIfNum(String s) {
+   int sz = s.length();
+   for(int i=0; i<sz; i++) {
+      if(!(s[i]>='0' && s[i]<='9' )) {
+         return false;
+      }
+   }
+   return true;
+}
+              
+              
 
 // use assert to check if there is 5 letter before and after 
 // where was the problem in thinking?
