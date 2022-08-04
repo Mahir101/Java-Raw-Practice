@@ -19,7 +19,7 @@ public detectPhoneNumber(String s) {
   if(b8801 && idx8801==0 && inBetween3to7(s.charAt(4)) ) {
     if(s.charAt(i)=='-') {
         if(i==5) {
-          return areRestNumbers(s.substring(6, s.length()));
+          return areRestNumbers(s.substring(6, s.length())) && sz==14;
         } else {
           
           return false;
@@ -27,7 +27,7 @@ public detectPhoneNumber(String s) {
       
     } 
     
-    return areRestNumbers(s.substring(5, s.length()));
+    return areRestNumbers(s.substring(5, s.length())) && sz==13;
     
    
   }
@@ -36,7 +36,7 @@ public detectPhoneNumber(String s) {
     
      if(s.charAt(i)=='-')) {
      if(i==3) {
-              return areRestNumbers(s.substring(4, s.length()));
+              return areRestNumbers(s.substring(4, s.length())) && sz==12;
 
         } else {
         
@@ -44,7 +44,7 @@ public detectPhoneNumber(String s) {
         }
       
     }
-        return areRestNumbers(s.substring(3, s.length()));
+        return areRestNumbers(s.substring(3, s.length())) && sz==11;
 
   
   }
@@ -52,7 +52,7 @@ public detectPhoneNumber(String s) {
   else if(bp8801 && idxp8801==0 && inBetween3to7(s.charAt(5)) {
     if(s.charAt(i)=='-')) {
        if(i==6) {
-              return areRestNumbers(s.substring(7, s.length()));
+              return areRestNumbers(s.substring(7, s.length())) && sz==15;
 
         } else {
         
@@ -62,7 +62,7 @@ public detectPhoneNumber(String s) {
     
     }
     
-        return areRestNumbers(s.substring(6, s.length()));
+        return areRestNumbers(s.substring(6, s.length())) && sz==14;
 
     
   } 
