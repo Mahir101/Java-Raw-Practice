@@ -4,8 +4,8 @@
 public Boolean isZipCode(String zipCode) {
    int lenZipCode = zipCode.length();
    for(int i=0; i< lenZipCode; i++) {
-         if(  !((zipCode.charAt(i)<='0' && zipCode.charAt(i)>='9' )  {
-               return false;
+         if(!((zipCode.charAt(i)<='0' && zipCode.charAt(i)>='9' )  {
+            if(i!=5) return false;
          }
 
  if(zipCode.chartAt(i)=='-' && i!=5 )
