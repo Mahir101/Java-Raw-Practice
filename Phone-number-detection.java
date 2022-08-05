@@ -1,4 +1,6 @@
 // could have used regex instead to simplify life but this is okay this is a good practice too 
+// believe me it is hard to write code without IDE and the chance of writing wrong code increases
+// so practice on google code or some text editor
 
 public detectPhoneNumber(String s) {
   int sz = s.length();
