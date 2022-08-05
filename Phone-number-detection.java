@@ -17,7 +17,7 @@ public detectPhoneNumber(String s) {
   bool b8801 = s.contains("8801"), b01 = s.contains("01"), bp8801 = s.contains("+8801");
   
   if(b8801 && idx8801==0 && inBetween3to7(s.charAt(4)) ) {
-    if(s.charAt(i)=='-') {
+    if(s.charAt(5)=='-') {
         if(i==5) {
           return areRestNumbers(s.substring(6, s.length())) && sz==14;
         } else {
@@ -34,7 +34,7 @@ public detectPhoneNumber(String s) {
   
   else if(b01 && idx01==0 && inBetween3to7(s.charAt(2)) {
     
-     if(s.charAt(i)=='-')) {
+     if(s.charAt(3)=='-')) {
      if(i==3) {
               return areRestNumbers(s.substring(4, s.length())) && sz==12;
 
@@ -50,7 +50,7 @@ public detectPhoneNumber(String s) {
   }
   
   else if(bp8801 && idxp8801==0 && inBetween3to7(s.charAt(5)) {
-    if(s.charAt(i)=='-')) {
+    if(s.charAt(6)=='-')) {
        if(i==6) {
               return areRestNumbers(s.substring(7, s.length())) && sz==15;
 
