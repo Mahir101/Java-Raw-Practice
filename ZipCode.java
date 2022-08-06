@@ -56,7 +56,7 @@ boolean checkIfNum(String s) {
 
 // use assert to check if there is 5 letter before and after 
 // where was the problem in thinking?
-// 1. Use Inclusion and exclusion principle, exclude the possibilities and include the possiblilies 
+// 1. Use Inclusion and exclusion principle, exclude the odds
 // 2. Get the exclusion ideas through asking queries and write them down infront of whoever asking so you don't forget neither they  -_=
 // 3. Exclude those and check corner cases 
 // 4. When matching a pattern use REGEX =_= when you have used REGEX thousand times before
