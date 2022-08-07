@@ -6,7 +6,8 @@ Learning from failures:
 
 - look out for the annotations and internal class files of your language to learn in depth
 - convert what you think into code [Do it fast and correct]
-- Don't start writing codes after listening to the questions directly, ask related questions, verify first
+- Don't start writing codes immediatley after listening to the questions, ask related questions, verify first
+- they will be unwilling to give info but you need to fetch all those infos and need to solve the problem correctly
 - First try to match input-output, take a close look at input and try to judge with fixed constraints
 - then make queries to find what needs to be excluded and what needs to included
 - Don't practice problem solving in multiple languages, it may become on reason for mind-block during a session
